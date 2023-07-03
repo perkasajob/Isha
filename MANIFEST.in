@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include isha *.css
+recursive-include isha *.csv
+recursive-include isha *.html
+recursive-include isha *.ico
+recursive-include isha *.js
+recursive-include isha *.json
+recursive-include isha *.md
+recursive-include isha *.png
+recursive-include isha *.py
+recursive-include isha *.svg
+recursive-include isha *.txt
+recursive-exclude isha *.pyc
